@@ -1,4 +1,4 @@
-// Copyright 2019 Kirill <your_email>
+// Copyright 2019 Name <your_email>
 
 #ifndef INCLUDE_HEADER_HPP_
 #define INCLUDE_HEADER_HPP_
@@ -14,7 +14,7 @@ using std::atomic_uint;
 template <typename T>
 class SharedPtr {
 public:
-    SharedPtr()
+    SharedPtr()// share
     {
         _ptr = nullptr;
     }
